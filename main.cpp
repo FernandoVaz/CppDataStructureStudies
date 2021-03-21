@@ -8,5 +8,17 @@ int main() {
     std::cout << "Type 2 to perform a linear search of X elements randomly generated" << std::endl;
     std::cin >> selector;
 
+    switch(selector) {
+        case 1:
+            std::cout << "You have selected one" << std::endl;
+            break;
+        case 2:
+            std::cout << "You have selected Two" << std::endl;
+            break;
+        default:
+            std::cout << "Not a valid option" << std::endl;
+            break;
+    }
+
     return 0;
 }

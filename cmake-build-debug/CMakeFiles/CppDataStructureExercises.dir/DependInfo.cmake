@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/Programas/Projects/CppDataStructureExercises/classes/randomArrayGenerator.cpp" "D:/Programas/Projects/CppDataStructureExercises/cmake-build-debug/CMakeFiles/CppDataStructureExercises.dir/classes/randomArrayGenerator.cpp.obj"
   "D:/Programas/Projects/CppDataStructureExercises/main.cpp" "D:/Programas/Projects/CppDataStructureExercises/cmake-build-debug/CMakeFiles/CppDataStructureExercises.dir/main.cpp.obj"
+  "D:/Programas/Projects/CppDataStructureExercises/run.cpp" "D:/Programas/Projects/CppDataStructureExercises/cmake-build-debug/CMakeFiles/CppDataStructureExercises.dir/run.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
