@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/CppDataStructureExercises.dir/classes/randomArrayGenerator.cpp.obj"
   "CMakeFiles/CppDataStructureExercises.dir/main.cpp.obj"
+  "CMakeFiles/CppDataStructureExercises.dir/run.cpp.obj"
   "CppDataStructureExercises.exe"
   "CppDataStructureExercises.exe.manifest"
   "CppDataStructureExercises.pdb"

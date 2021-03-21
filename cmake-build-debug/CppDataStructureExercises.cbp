@@ -86,7 +86,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Programas/Projects/CppDataStructureExercises/classes/randomArrayGenerator.cpp">
+			<Option target="CppDataStructureExercises"/>
+		</Unit>
+		<Unit filename="D:/Programas/Projects/CppDataStructureExercises/headers/randomArrayGenerator.h">
+			<Option target="CppDataStructureExercises"/>
+		</Unit>
 		<Unit filename="D:/Programas/Projects/CppDataStructureExercises/main.cpp">
+			<Option target="CppDataStructureExercises"/>
+		</Unit>
+		<Unit filename="D:/Programas/Projects/CppDataStructureExercises/run.cpp">
 			<Option target="CppDataStructureExercises"/>
 		</Unit>
 		<Unit filename="D:/Programas/Projects/CppDataStructureExercises/CMakeLists.txt">

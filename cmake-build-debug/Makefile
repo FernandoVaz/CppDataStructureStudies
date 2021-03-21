@@ -122,6 +122,33 @@ CppDataStructureExercises/fast:
 	$(MAKE) -f CMakeFiles\CppDataStructureExercises.dir\build.make CMakeFiles/CppDataStructureExercises.dir/build
 .PHONY : CppDataStructureExercises/fast
 
+classes/randomArrayGenerator.obj: classes/randomArrayGenerator.cpp.obj
+
+.PHONY : classes/randomArrayGenerator.obj
+
+# target to build an object file
+classes/randomArrayGenerator.cpp.obj:
+	$(MAKE) -f CMakeFiles\CppDataStructureExercises.dir\build.make CMakeFiles/CppDataStructureExercises.dir/classes/randomArrayGenerator.cpp.obj
+.PHONY : classes/randomArrayGenerator.cpp.obj
+
+classes/randomArrayGenerator.i: classes/randomArrayGenerator.cpp.i
+
+.PHONY : classes/randomArrayGenerator.i
+
+# target to preprocess a source file
+classes/randomArrayGenerator.cpp.i:
+	$(MAKE) -f CMakeFiles\CppDataStructureExercises.dir\build.make CMakeFiles/CppDataStructureExercises.dir/classes/randomArrayGenerator.cpp.i
+.PHONY : classes/randomArrayGenerator.cpp.i
+
+classes/randomArrayGenerator.s: classes/randomArrayGenerator.cpp.s
+
+.PHONY : classes/randomArrayGenerator.s
+
+# target to generate assembly for a file
+classes/randomArrayGenerator.cpp.s:
+	$(MAKE) -f CMakeFiles\CppDataStructureExercises.dir\build.make CMakeFiles/CppDataStructureExercises.dir/classes/randomArrayGenerator.cpp.s
+.PHONY : classes/randomArrayGenerator.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -149,6 +176,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\CppDataStructureExercises.dir\build.make CMakeFiles/CppDataStructureExercises.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+run.obj: run.cpp.obj
+
+.PHONY : run.obj
+
+# target to build an object file
+run.cpp.obj:
+	$(MAKE) -f CMakeFiles\CppDataStructureExercises.dir\build.make CMakeFiles/CppDataStructureExercises.dir/run.cpp.obj
+.PHONY : run.cpp.obj
+
+run.i: run.cpp.i
+
+.PHONY : run.i
+
+# target to preprocess a source file
+run.cpp.i:
+	$(MAKE) -f CMakeFiles\CppDataStructureExercises.dir\build.make CMakeFiles/CppDataStructureExercises.dir/run.cpp.i
+.PHONY : run.cpp.i
+
+run.s: run.cpp.s
+
+.PHONY : run.s
+
+# target to generate assembly for a file
+run.cpp.s:
+	$(MAKE) -f CMakeFiles\CppDataStructureExercises.dir\build.make CMakeFiles/CppDataStructureExercises.dir/run.cpp.s
+.PHONY : run.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -158,9 +212,15 @@ help:
 	@echo ... CppDataStructureExercises
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... classes/randomArrayGenerator.obj
+	@echo ... classes/randomArrayGenerator.i
+	@echo ... classes/randomArrayGenerator.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... run.obj
+	@echo ... run.i
+	@echo ... run.s
 .PHONY : help
 
 
